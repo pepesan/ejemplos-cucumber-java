@@ -27,7 +27,17 @@ reemplazando `ruta/al/archivo.feature` con la ruta real del archivo que deseas e
 ```bash
 mvn -q clean test \
   -Dcucumber.glue=com.cursosdedesarrollo.steps \
-  -Dcucumber.features=classpath:features/calculadora.feature
+  -Dcucumber.features=classpath:features/00_calculadora.feature
 ```
+## Lanzamiento de un único tag
+Para ejecutar pruebas específicas etiquetadas con un tag, puedes utilizar el siguiente comando de Maven,
+por ejemplo del tag `@critico` con el tag real que deseas ejecutar:    
+```bash
+mvn -q clean test \
+    -Dcucumber.glue=com.cursosdedesarrollo.steps \
+    -Dcucumber.features=classpath:features \
+    -Dcucumber.filter.tags="@critico"
+```
+
 
 
