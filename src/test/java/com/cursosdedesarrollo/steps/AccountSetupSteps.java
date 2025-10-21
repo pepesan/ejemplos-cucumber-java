@@ -16,11 +16,6 @@ public class AccountSetupSteps {
 
     public AccountSetupSteps(World world) { this.world = world; }
 
-    @DataTableType
-    public Account cuenta(Map<String, String> row) {
-        return new Account(row.get("id"), row.get("titular"), new BigDecimal(row.get("saldo")));
-    }
-
     @Dado("existen las siguientes cuentas:")
     public void existen_las_siguientes_cuentas(List<Account> cuentas) {
         world.bank.reset();
