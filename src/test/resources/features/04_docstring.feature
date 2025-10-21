@@ -1,3 +1,4 @@
+# Revisa el Fichero CalculadoraSteps, SaldosStep, TransferSteps y PolicySteps
 Feature: Políticas de comisión desde JSON
 
   Background:

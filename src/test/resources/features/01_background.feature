@@ -1,3 +1,4 @@
+# Revisa el Fichero AccountSetupSteps y SaldosStep
 Feature: Operaciones bancarias con estado común
 
   Background:

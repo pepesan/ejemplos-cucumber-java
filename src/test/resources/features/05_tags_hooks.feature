@@ -1,3 +1,5 @@
+# Revisa el Fichero CalculadoraSteps, SaldosStep y PolicySteps
+# Definimos etiquetas para su ejecución
 @limpio
 Feature: Escenarios que requieren estado limpio
 
