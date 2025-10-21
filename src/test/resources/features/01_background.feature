@@ -9,3 +9,7 @@ Feature: Operaciones bancarias con estado común
   Scenario: Consulta de saldos iniciales
     Then el saldo de "A" es 1000
     And el saldo de "B" es 500
+
+  Scenario: Consulta de saldos iniciales
+    Then el saldo de "A" es 1000
+    And el saldo de "B" es 500
