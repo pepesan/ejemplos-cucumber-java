@@ -14,3 +14,7 @@ Feature: Escenarios que requieren estado limpio
     When transfiero 10 de la cuenta "X" a "Y"
     Then el saldo de "X" es 0
     And el saldo de "Y" es 30
+
+  Scenario: Un caso normal
+    When transfiero 10 de la cuenta "Y" a "X"
+    Then el saldo de "X" es 20
